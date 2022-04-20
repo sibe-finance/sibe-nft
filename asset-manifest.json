@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sibe-nft/static/css/main.d544bfcd.chunk.css",
-    "main.js": "/sibe-nft/static/js/main.4f208df2.chunk.js",
-    "main.js.map": "/sibe-nft/static/js/main.4f208df2.chunk.js.map",
+    "main.js": "/sibe-nft/static/js/main.f24f9fc6.chunk.js",
+    "main.js.map": "/sibe-nft/static/js/main.f24f9fc6.chunk.js.map",
     "runtime-main.js": "/sibe-nft/static/js/runtime-main.d88bd7f1.js",
     "runtime-main.js.map": "/sibe-nft/static/js/runtime-main.d88bd7f1.js.map",
     "static/css/2.e91b11d9.chunk.css": "/sibe-nft/static/css/2.e91b11d9.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.e91b11d9.chunk.css",
     "static/js/2.cc734392.chunk.js",
     "static/css/main.d544bfcd.chunk.css",
-    "static/js/main.4f208df2.chunk.js"
+    "static/js/main.f24f9fc6.chunk.js"
   ]
 }
