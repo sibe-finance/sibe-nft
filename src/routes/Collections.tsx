@@ -10,7 +10,7 @@ export default function Collections(props:any) {
     return (
         <div className="collections-wrapper">
         {collections?.map((collection)=> (
-          <Link to={`${collection.name}`} key={collection.name} className="collection-item-wrapper">
+          <Link to={`sibe-nft/${collection.name}`} key={collection.name} className="collection-item-wrapper">
             <div className="collection-item-logo"></div>
             <h3 className="collection-item-header">{collection.name}</h3>
             <div className="collection-item-volume volume">

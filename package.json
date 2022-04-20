@@ -2,7 +2,7 @@
   "name": "candy-machine-mint",
   "version": "0.2.0",
   "private": true,
-  "homepage": "https://sibe-finance.github.io",
+  "homepage": "https://sibe-finance.github.io/sibe-nft/",
   "dependencies": {
     "@babel/runtime": "^7.15.5",
     "@civic/solana-gateway-react": "^0.4.13",

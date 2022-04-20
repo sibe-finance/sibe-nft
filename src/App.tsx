@@ -73,14 +73,14 @@ const App = () => {
             <Header open={open} setOpen={setOpen} />
             { open ? <Overlay /> : 
             <Routes>
-              <Route path="/" element={ <HomePage candyMachineId={candyMachineId}
+              <Route path="/sibe-nft/" element={ <HomePage candyMachineId={candyMachineId}
                 connection={connection}
                 txTimeout={txTimeoutInMilliseconds}
                 rpcHost={rpcHost}/>} > 
               </Route>
-              <Route path="/:collectionId" element={<NFTMarketplace />}> 
+              <Route path="/sibe-nft/:collectionId" element={<NFTMarketplace />}> 
               </Route>
-              <Route path="/:collectionId/:itemId" element={<NftCard />} />
+              <Route path="/sibe-nft/:collectionId/:itemId" element={<NftCard />} />
           </Routes> }
             { !open && <Footer />}
         </WalletModalProvider>
