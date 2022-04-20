@@ -78,9 +78,9 @@ const App = () => {
                 txTimeout={txTimeoutInMilliseconds}
                 rpcHost={rpcHost}/>} > 
               </Route>
-              <Route path="/sibe-nft/:collectionId" element={<NFTMarketplace />}> 
+              <Route path="/:collectionId" element={<NFTMarketplace />}> 
               </Route>
-              <Route path="/sibe-nft/:collectionId/:itemId" element={<NftCard />} />
+              <Route path="/:collectionId/:itemId" element={<NftCard />} />
           </Routes> }
             { !open && <Footer />}
         </WalletModalProvider>
