@@ -126,7 +126,7 @@
   }
   
   .header-connect-wallet {
-    font-size: 2.5vw;
+    font-size: 1.2vw !important;
     cursor: pointer;
     color: var(--color-light) !important;
     padding: 1vw 2.6vw !important;

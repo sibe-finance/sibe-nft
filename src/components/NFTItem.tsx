@@ -7,7 +7,7 @@ export default function NFTMarketplace (props: any) {
 
     const mint = props.token_add;
     return (
-        <Link to={`${props.collectionId}/${props.name}`} state={{token : token}} className="nft-item-wrapper">
+        <Link to={`Aurorian%204978`} state={{token : token}} className="nft-item-wrapper">
             <img src={props.img} alt="nft-item" className="nft-item-img" />
             <h3 className="nft-item-name">{props.name}</h3>
             <div className="nft-item-token-address">
