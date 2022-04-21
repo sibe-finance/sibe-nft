@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/sibe-nft/static/css/main.d544bfcd.chunk.css",
-    "main.js": "/sibe-nft/static/js/main.017b7b0b.chunk.js",
-    "main.js.map": "/sibe-nft/static/js/main.017b7b0b.chunk.js.map",
+    "main.css": "/sibe-nft/static/css/main.b241218f.chunk.css",
+    "main.js": "/sibe-nft/static/js/main.02782093.chunk.js",
+    "main.js.map": "/sibe-nft/static/js/main.02782093.chunk.js.map",
     "runtime-main.js": "/sibe-nft/static/js/runtime-main.d88bd7f1.js",
     "runtime-main.js.map": "/sibe-nft/static/js/runtime-main.d88bd7f1.js.map",
     "static/css/2.e91b11d9.chunk.css": "/sibe-nft/static/css/2.e91b11d9.chunk.css",
-    "static/js/2.cc734392.chunk.js": "/sibe-nft/static/js/2.cc734392.chunk.js",
-    "static/js/2.cc734392.chunk.js.map": "/sibe-nft/static/js/2.cc734392.chunk.js.map",
+    "static/js/2.f2c2d799.chunk.js": "/sibe-nft/static/js/2.f2c2d799.chunk.js",
+    "static/js/2.f2c2d799.chunk.js.map": "/sibe-nft/static/js/2.f2c2d799.chunk.js.map",
     "static/js/3.5983f689.chunk.js": "/sibe-nft/static/js/3.5983f689.chunk.js",
     "static/js/3.5983f689.chunk.js.map": "/sibe-nft/static/js/3.5983f689.chunk.js.map",
     "index.html": "/sibe-nft/index.html",
     "static/css/2.e91b11d9.chunk.css.map": "/sibe-nft/static/css/2.e91b11d9.chunk.css.map",
-    "static/css/main.d544bfcd.chunk.css.map": "/sibe-nft/static/css/main.d544bfcd.chunk.css.map",
-    "static/js/2.cc734392.chunk.js.LICENSE.txt": "/sibe-nft/static/js/2.cc734392.chunk.js.LICENSE.txt",
+    "static/css/main.b241218f.chunk.css.map": "/sibe-nft/static/css/main.b241218f.chunk.css.map",
+    "static/js/2.f2c2d799.chunk.js.LICENSE.txt": "/sibe-nft/static/js/2.f2c2d799.chunk.js.LICENSE.txt",
     "static/media/box.c530f7bb.svg": "/sibe-nft/static/media/box.c530f7bb.svg",
     "static/media/discord.2fd207e1.svg": "/sibe-nft/static/media/discord.2fd207e1.svg",
     "static/media/github.6cd3efeb.svg": "/sibe-nft/static/media/github.6cd3efeb.svg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.d88bd7f1.js",
     "static/css/2.e91b11d9.chunk.css",
-    "static/js/2.cc734392.chunk.js",
-    "static/css/main.d544bfcd.chunk.css",
-    "static/js/main.017b7b0b.chunk.js"
+    "static/js/2.f2c2d799.chunk.js",
+    "static/css/main.b241218f.chunk.css",
+    "static/js/main.02782093.chunk.js"
   ]
 }
