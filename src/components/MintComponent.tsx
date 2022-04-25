@@ -11,6 +11,7 @@ import { GatewayProvider } from '@civic/solana-gateway-react';
 import { useEffect, useMemo, useState, useCallback } from 'react';
 import { useWallet } from '@solana/wallet-adapter-react';
 import { MintButton } from '../components/MintButton';
+import WhitelistBanner from './WhitelistBanner';
 import { PublicKey, Transaction } from '@solana/web3.js';
 import { sendTransaction } from '../scripts/connection';
 import box from '../img/box.svg';
@@ -37,6 +38,7 @@ export default function MintComponent(props:MintCompProps) {
     const [itemsRemaining, setItemsRemaining] = useState<number>();
     const [isWhitelistUser, setIsWhitelistUser] = useState(false);
     const [isPresale, setIsPresale] = useState(false);
+    const [whitelist, setWhitelist] = useState(false);
 
     const rpcUrl = props.rpcHost;
     const wallet = useWallet();
@@ -198,6 +200,7 @@ export default function MintComponent(props:MintCompProps) {
                 message: 'Congratulations! Mint succeeded!',
                 severity: 'success',
               });
+              setWhitelist(()=>!whitelist);
             } else {
               setAlertState({
                 open: true,
@@ -252,7 +255,7 @@ export default function MintComponent(props:MintCompProps) {
 
     return (
         <>
-                {(
+          {whitelist ? <WhitelistBanner /> : (
             <div className="mint-section">
                 <h1 className="mint-header">Sibe Protocol <br /> white list </h1>
                 <div className="mint-volume volume">

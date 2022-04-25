@@ -36,13 +36,7 @@ export const MintButton = ({
       return 'SOLD OUT';
     } else if (isMinting) {
       return 'Loading...';
-    } else if (
-      candyMachine?.state.isPresale ||
-      candyMachine?.state.isWhitelistOnly
-    ) {
-      return 'WHITELIST MINT';
     }
-
     return `Buy now ${formatNumber.asNumber(candyMachine?.state.price) || 0.05} SOL`;
   };
 
